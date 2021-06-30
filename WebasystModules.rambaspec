@@ -1,0 +1,21 @@
+# Template information section
+name: WebasystModules
+summary: Template for creating a module for a Webasyst X-based application
+author: Viktor Kobykhno
+version: 0.1.0
+license: MIT
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/ViewController.swift, path: Core/View/ViewController.swift.liquid}
+
+# ViewModel layer
+- {name: ViewModel/ViewModel.swift, path: Core/ViewModel/ViewModel.swift.liquid}
+
+# Interactor layer
+- {name: Model/Model.swift, path: Core/Model/Model.swift.liquid}
+
+# Router layer
+- {name: Router/Router.swift, path: Core/Router/Router.swift.liquid}
